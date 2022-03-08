@@ -1,0 +1,37 @@
+/** @format */
+.container {
+  overflow: hidden;
+}
+.slider {
+  transform: translateX(0);
+  transition: transform 0.3s ease-out;
+  cursor: grabbing;
+}
+.grabbing {
+  cursor: grabbing;
+}
+/* .grabbing .slide {
+  transform: scale(1.3);
+} */
+
+.collection-item {
+  cursor: pointer;
+  /* position: absolute;s */
+}
+
+.this-a-trial {
+  display: flex;
+  flex-direction: column;
+}
+
+.trial-list {
+  display: flex;
+  /* justify-content: space-between; */
+  list-style: none;
+  padding: 5px;
+  border: 1px solid gray;
+}
+
+.trial-list img {
+  margin-right: 20px;
+}
